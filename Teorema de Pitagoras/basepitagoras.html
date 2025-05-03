@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teorema de Pitágoras</title>
+    <link rel="icon" href="../Desing/CA.png">
+    <link rel="stylesheet" href="graficopitagoras.css">
+    <link rel="stylesheet" href="../menugrafico.css">
+    <script src="../menuestrutura.js" defer></script>
+    <script src="estruturapitagoras.js"></script>
+</head>
+<body>
+
+    <div id="menucomum"></div>
+    
+    <div class="bodypitagoras">
+        <h2 class="textopitagoras">Teorema de Pitágoras</h2>
+        <label for="cateto1" class="textocatetoum">Cateto 1:</label>
+        <input type="text" id="cateto1" placeholder="Digite o Valor" class="caixacatetoum">
+    
+        <label for="cateto2" class="textocatetodois">Cateto 2:</label>
+        <input type="text" id="cateto2" placeholder="Digite o Valor" class="caixacatetodois">
+    
+        <label for="hipotenusa" class="textohipotenusa">Hipotenusa:</label>
+        <input type="text" id="hipotenusa" placeholder="Digite o Valor" class="caixahipotenusa">
+        <button onclick="calcular()" class="botaopitagoras">Calcular</button>
+        <h3 class="textoresultado">Resultado:<span id="resultado"></span></h3>
+        <button onclick="copiarResultado()" class="botaoresultado">Copiar Resultado</button>
+        <h3 class="textocalculo">Campo de Cálculo</h3>
+        <div id="calculoc" class="calculooo-caixa"></div>
+    </div>
+
+    <div class="back-imagens"></div>
+    
+</body>
+</html>
