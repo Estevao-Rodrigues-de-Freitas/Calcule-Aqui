@@ -1,0 +1,75 @@
+.bodycalculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+  
+.calculator {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 92px);
+    gap: 14px;
+    padding: 20px;
+    border-radius: 7px;
+    top: 405px;
+}
+  
+.display {
+    font-family: fantasy;
+    position: absolute;
+    grid-column: span 4;
+    width: 400px;
+    height: 148px;
+    color: white;
+    font-size: 55px;
+    text-align: right;
+    padding: 17px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-radius: 8px;
+    left: 29px;
+    top: -150px;
+}
+
+.capacalculo {
+    position: absolute;
+    width: 474px;
+    height: 582px;
+    top: 203px;
+    z-index: -10;
+    border-radius: 30px;
+    overflow: hidden;
+}
+  
+.btn {
+    width: 93px;
+    height: 52px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin-left: -1px;
+    margin-top: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1.5);
+}
+
+.btn:hover{
+    border: 1px solid white;
+}
+
+.back-imagens {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fundo-calculadora-basica.gif');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: -100;
+}
