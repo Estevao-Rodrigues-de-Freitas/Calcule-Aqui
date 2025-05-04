@@ -103,6 +103,10 @@
 
 @media (max-width: 768px) {
     .carrossel{
-        gap: 80px;
+        gap: 110px;
+    }
+
+    .imagemc {
+        width: 10%;
     }
 }
