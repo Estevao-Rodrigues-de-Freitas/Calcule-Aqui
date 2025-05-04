@@ -34,7 +34,7 @@ input {
     text-align: center;
     font-size: 1.2rem;
     background-color: white;
-    margin-top: 72px;
+    margin-top: 100px;
 
     /* Centralização horizontal */
     display: block;
@@ -118,7 +118,7 @@ a {
 
     .assistentezero {
         transform: scale(0.5);
-        top: 51px;
+        top: 62px;
         left: -50px;
     }
 }
