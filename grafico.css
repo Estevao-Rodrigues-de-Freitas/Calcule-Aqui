@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 11.7%;
 }
 
 .conter-calcula {
@@ -85,7 +85,7 @@
     background-image: url('fundo-base.png');
     background-size: 100% 100%;
     background-position: center;
-    z-index: -1;
+    z-index: -10;
     animation: DistorcaoFundo 3s infinite ease-in-out;
 }
 
@@ -101,43 +101,24 @@
     }
 }
 
-@media screen and (orientation: portrait) {
-    .conter-calcula {
-        width: 95%;
-        padding: 20px;
-    }
+/* responsivo.css */
 
-    .imagemc {
-        width: 70%;
-    }
+/* Regras para telas até 768px (tablets e celulares) */
+@media (max-width: 794px) {
 
-    .carrossel {
-        gap: 60px;
-    }
-
-    .btn {
-        font-size: 1rem;
-        padding: 10px 16px;
-    }
-}
-
-/* Estilos para modo paisagem (landscape) */
-@media screen and (orientation: landscape) {
-    .conter-calcula {
-        width: 80%;
-        padding: 30px;
-    }
-
-    .imagemc {
-        width: 50%;
+    .body-dois {
+        margin-top: 20px;
     }
 
     .carrossel {
-        gap: 100px;
+        gap: 10%;
     }
 
-    .btn {
-        font-size: 0.9rem;
-        padding: 8px 14px;
+    .imagemc {
+        width: 60%;
+    }
+
+    .conter-calcula {
+        width: 90%;
     }
 }
