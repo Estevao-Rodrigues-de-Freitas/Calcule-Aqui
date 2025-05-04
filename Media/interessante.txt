@@ -1,0 +1,54 @@
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Define um espaço considerável entre os elementos */
+}
+
+.textoseparador,
+.textonumero,
+.textoresultado,
+.detalhesTexto {
+    font-size: 27px;
+}
+
+.caixaseparador,
+.caixanumeros,
+.botaomedia,
+.botaoresultado,
+.detalhes {
+    font-size: 25px;
+    text-align: center;
+}
+
+.caixaseparador {
+    height: 50px;
+    width: 40px;
+}
+
+.caixanumeros {
+    height: 50px;
+    width: 250px;
+}
+
+.botaomedia {
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.botaoresultado {
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.detalhes {
+    height: 500px;
+    width: 400px;
+}
