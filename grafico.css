@@ -101,29 +101,43 @@
     }
 }
 
-@media (max-width: 768px) {
-
+@media screen and (orientation: portrait) {
     .conter-calcula {
-        width: 90%;
-    }
-
-    .carrossel {
-        display: flex;
-        gap: 30px;
-        transition: transform 0.5s ease-in-out;
-        position: relative;
-    }
-
-    .carrossel-setass {
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
+        width: 95%;
+        padding: 20px;
     }
 
     .imagemc {
-        width: 60%;
-        flex-shrink: 0;
-        align-items: center;
-        cursor: pointer;
+        width: 40%;
+    }
+
+    .carrossel {
+        gap: 60px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
+}
+
+/* Estilos para modo paisagem (landscape) */
+@media screen and (orientation: landscape) {
+    .conter-calcula {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .imagemc {
+        width: 25%;
+    }
+
+    .carrossel {
+        gap: 100px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 14px;
     }
 }

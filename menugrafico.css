@@ -97,28 +97,43 @@ a {
     z-index: 800;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
     .menu_nome {
-        font-size: 5vw;
+        font-size: 4vw;
+        top: 2vh;
     }
 
     input {
-        font-size: 1rem;
-        margin-top: 40px;
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .menu-container {
+        top: 16vh;
     }
 
     .btnzz {
         font-size: 1rem;
     }
+}
 
-    .menu-container {
-        padding: 15px;
+/* Estilos para modo paisagem (landscape) */
+@media screen and (orientation: landscape) {
+    .menu_nome {
+        font-size: 2vw;
+        top: 1vh;
     }
 
-    .assistentezero {
-        transform: scale(0.5);
-        top: 62px;
-        left: -50px;
+    input {
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .menu-container {
+        top: 10vh;
+    }
+
+    .btnzz {
+        font-size: 0.95rem;
     }
 }
