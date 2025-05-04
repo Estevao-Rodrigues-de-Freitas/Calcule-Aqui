@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
     // Defina o conteúdo HTML do menu dentro do JS
     const menuHTML = `
         <h1 class ="menu_nome">CALCULA AQUI</h3>
-        <div class="assistentezero"><a href="index.html"><img src="Desing/animado/0-assistente.gif" alt="assistzero" onmouseover="trocarimagem(this,'Desing/animado/0-assistente-selecionado.gif')" onmouseout="restaurarimagem(this,'Desing/animado/0-assistente.gif')"></a></div>
+        <div class="assistentezero"><a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/index.html"><img src="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente.gif" alt="assistzero" onmouseover="trocarimagem(this,'https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente-selecionado.gif')" onmouseout="restaurarimagem(this,'https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente.gif')"></a></div>
         <div class="body-um" id="bodyum">
             <input type="text" id="search" placeholder="Pesquisar..." onfocus="showMenu()" onkeyup="filterButtons()">
                 <div class="menu-container" id="menuContainer">
                     <div class="button-container" id="buttonContainer">
-                        <a href="Calculadora%20Basica/basecalculo.html" class="btnzz">Operações Básicas</a>
-                        <a href="Media/basemedia.html" class="btnzz">Calcular Média</a>
-                        <a href="Mediana/basemediana.html" class="btnzz">Calcular Mediana</a>
-                        <a href="Moda/basemoda.html" class="btnzz">Calcular Moda</a>
-                        <a href="Teorema%20de%20Pitagoras/basepitagoras.html" class="btnzz" class="btnzz">Teorema de Pitagoras</a>
-                        <a href="Bhaskara/basebhaskara.html" class="btnzz">Calcular Bhaskara</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Calculadora%20Basica/basecalculo.html" class="btnzz">Operações Básicas</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Media/basemedia.html" class="btnzz">Calcular Média</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Mediana/basemediana.html" class="btnzz">Calcular Mediana</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Moda/basemoda.html" class="btnzz">Calcular Moda</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Teorema%20de%20Pitagoras/basepitagoras.html" class="btnzz" class="btnzz">Teorema de Pitagoras</a>
+                        <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Bhaskara/basebhaskara.html" class="btnzz">Calcular Bhaskara</a>
                     </div>
                 </div>    
         </div>
