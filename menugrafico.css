@@ -116,6 +116,7 @@ a {
     }
 
     .assistentezero {
-        transform: scale(0.3);
+        transform: scale(0.5);
+        top: 21px;
     }
 }
