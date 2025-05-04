@@ -1,0 +1,121 @@
+.body-um * {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.menu_nome {
+    font-family: cursive;
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 10;
+    text-shadow: 
+        3px 3px 0 black,
+        3px 3px 0 black,
+        3px 3px 0 black,
+        3px 3px 0 black;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+    margin-top: 72px;
+
+    /* Centralização horizontal */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-container {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+    top: 14vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 100%;
+}
+
+.btnzz {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.btnzz:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.assistentezero {
+    position: absolute;
+    top: -11px;
+    transform: scale(0.9);
+    cursor: pointer;
+    z-index: 800;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .menu_nome {
+        font-size: 5vw;
+    }
+
+    input {
+        font-size: 1rem;
+        margin-top: 40px;
+    }
+
+    .btnzz {
+        font-size: 1rem;
+    }
+
+    .menu-container {
+        padding: 15px;
+    }
+
+    .assistentezero {
+        transform: scale(0.3);
+    }
+}
