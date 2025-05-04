@@ -91,6 +91,7 @@ a {
 .assistentezero {
     position: absolute;
     top: -11px;
+    left: 10px;
     transform: scale(0.9);
     cursor: pointer;
     z-index: 800;
