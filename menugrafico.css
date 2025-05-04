@@ -109,7 +109,19 @@ a {
     }
 
     .menu-container {
-        top: 16vh;
+        top: 20vh;
+        width: 95%;
+        max-width: 350px;
+    }
+
+    .assistentezero {
+        position: relative;
+        top: 20px;
+        left: 0;
+        transform: scale(0.7);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
     .btnzz {
@@ -130,7 +142,16 @@ a {
     }
 
     .menu-container {
-        top: 10vh;
+        top: 18vh;
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .assistentezero {
+        position: absolute;
+        top: -5px;
+        left: 20px;
+        transform: scale(0.6);
     }
 
     .btnzz {
