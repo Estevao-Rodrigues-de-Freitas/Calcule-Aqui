@@ -104,12 +104,12 @@
 @media (max-width: 768px) {
 
     .conter-calcula {
-        width: 50%;
+        width: 80%;
     }
-    
+
     .carrossel {
         display: flex;
-        gap: 80px;
+        gap: 30px;
         transition: transform 0.5s ease-in-out;
         position: relative;
     }
@@ -121,7 +121,7 @@
     }
 
     .imagemc {
-        width: 70%;
+        width: 60%;
         flex-shrink: 0;
         align-items: center;
         cursor: pointer;
