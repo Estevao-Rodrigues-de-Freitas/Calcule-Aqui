@@ -102,11 +102,23 @@
 }
 
 @media (max-width: 768px) {
-    .carrossel{
-        gap: 80px;
+    .carrossel {
+        display: flex;
+        gap: 120px;
+        transition: transform 0.5s ease-in-out;
+        position: relative;
+    }
+
+    .carrossel-setass {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
     }
 
     .imagemc {
-        width: 70%;
+        width: 30%;
+        flex-shrink: 0;
+        align-items: center;
+        cursor: pointer;
     }
 }
