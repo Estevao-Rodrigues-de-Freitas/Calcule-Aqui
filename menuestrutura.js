@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h1 class ="menu_nome">CALCULA AQUI</h3>
         <div class="assistentezero"><a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/index.html"><img src="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente.gif" alt="assistzero" onmouseover="trocarimagem(this,'https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente-selecionado.gif')" onmouseout="restaurarimagem(this,'https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Desing/animado/0-assistente.gif')"></a></div>
         <div class="body-um" id="bodyum">
-            <input type="text" id="search" placeholder="Pesquisar..." onfocus="showMenu()" onkeyup="filterButtons()">
+            <input type="text" id="search" class="input_pesquisa" placeholder="Pesquisar..." onfocus="showMenu()" onkeyup="filterButtons()">
                 <div class="menu-container" id="menuContainer">
                     <div class="button-container" id="buttonContainer">
                         <a href="https://estevao-rodrigues-de-freitas.github.io/Calcule-Aqui/Calculadora%20Basica/basecalculo.html" class="btnzz">Operações Básicas</a>
