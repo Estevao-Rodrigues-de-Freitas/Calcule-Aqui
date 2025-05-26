@@ -1,0 +1,118 @@
+.bodypitagoras{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    gap: 15px;
+}
+
+.textopitagoras,
+.textocalculo,
+.textoresultado,
+.textocatetoum,
+.textocatetodois,
+.textohipotenusa{
+    font-size: 30px;
+    color: yellow;
+    background-color: rgb(72, 69, 97);
+    border-radius: 10px;
+    text-shadow: 
+       3px  3px 0 black,  
+       3px  3px 0 black,  
+       3px  3px 0 black,  
+       3px  3px 0 black;
+}
+
+.textocatetoum{
+    margin-top: 20px;
+}
+
+.caixacatetoum,
+.caixacatetodois,
+.caixahipotenusa{
+    height: 50px;
+    width: 250px;
+    margin-left: 0px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.textocatetodois{
+    margin-top: 20px;
+}
+
+input{
+    text-align: center;
+}
+
+.textohipotenusa{
+    margin-top: 20px;
+}
+
+.botaopitagoras{
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.botaoresultado{
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.textocalculo{
+    margin-bottom: -10px;
+}
+
+.calculooo-caixa{
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    white-space: pre;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 200px;
+    font-size: 20px;
+}
+
+button:hover{
+    color:yellow;
+    background-color: rgb(255, 0, 234);
+}
+
+.back-imagens {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('fundo-do-teorema-de-pitagoras.png');
+    background-size: 100% 100%;
+    background-position: center;
+    z-index: -1;
+    animation: DistorcaoFundo 3s infinite ease-in-out;
+}
+
+@keyframes DistorcaoFundo {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
